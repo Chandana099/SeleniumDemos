@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="8" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="48" started-at="2020-01-08T08:57:00Z" finished-at="2020-01-08T08:57:00Z">
+    <groups>
+      <group name="smoke">
+        <method signature="Testgroup1.test1()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test1" class="groupsPackage.Testgroup1"/>
+        <method signature="Testgroup1.test2()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test2" class="groupsPackage.Testgroup1"/>
+        <method signature="Testgroup1.test3()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test3" class="groupsPackage.Testgroup1"/>
+        <method signature="Testgroup2.test3()[pri:0, instance:groupsPackage.Testgroup2@4f933fd1]" name="test3" class="groupsPackage.Testgroup2"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Testnggroup" duration-ms="48" started-at="2020-01-08T08:57:00Z" finished-at="2020-01-08T08:57:00Z">
+      <class name="groupsPackage.Testgroup1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test1" duration-ms="18" started-at="2020-01-08T14:27:00Z" finished-at="2020-01-08T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test2" duration-ms="3" started-at="2020-01-08T14:27:00Z" finished-at="2020-01-08T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:groupsPackage.Testgroup1@5419f379]" name="test3" duration-ms="2" started-at="2020-01-08T14:27:00Z" finished-at="2020-01-08T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- groupsPackage.Testgroup1 -->
+      <class name="groupsPackage.Testgroup2">
+        <test-method status="PASS" signature="test3()[pri:0, instance:groupsPackage.Testgroup2@4f933fd1]" name="test3" duration-ms="1" started-at="2020-01-08T14:27:00Z" finished-at="2020-01-08T14:27:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- groupsPackage.Testgroup2 -->
+    </test> <!-- Testnggroup -->
+  </suite> <!-- Suite -->
+</testng-results>
